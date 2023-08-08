@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lugrasimo', cursive;
+   
+    
+    
+    
+    
+ 
+ 
+   
+   
+    
+}
+.dark{
+    width: 100%;
+    position: fixed;
+    opacity: 50%;
+}
+.h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid 10px;
+    align-items: center;
+ 
+    
+}
+
+#span2{
+    font-size: x-large;
+    color: rgb(247, 79, 1);
+    
+    
+    
+}
+
+#span1{
+    color: rgb(0, 0, 0);
+}
+#span1:hover{
+    color: rgb(255, 255, 255);
+}
+
+.h2
+{
+    color: rgb(255, 0, 0);
+   
+
+}
+.center{
+    position:absolute;
+    width: 100%;
+    opacity: 100%;
+    background-image: linear-gradient( to bottom right, rgb(253, 122, 0),rgb(238, 218, 210));
+
+
+}
+.h1:hover{
+color: rgb(0, 0, 0);
+}
+
+
+.div1{
+    
+    margin-top: 150px;
+    background-color:rgb(255, 255, 255);
+  
+}
+
+.navbar{
+    width: 85%;
+    display: flex /* for coming side by side */;
+    justify-content: space-between /* for spacing  */;
+    margin-left: 100px;
+    margin-top: -390px;
+   
+   
+  
+  
+ 
+}
+
+.images{
+    width: 1px;
+    height: 350px;
+    position:relative;
+    right: -250px;
+    bottom: -150px;
+
+}
+.images img{
+    position: relative;
+    height: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s, top 1s;
+    bottom: 0px;
+}
+
+.images:hover #logo{
+    bottom: 115px;
+  
+
+}
+.images:hover #logo1{
+    bottom: 220px;
+   
+}
+
+#logo{
+ 
+bottom: 70px;
+    
+ 
+}
+
+#logo1{
+   bottom: 240px;
+   
+}
+
+.topbarhead{
+    
+    top: 0px;
+    top: 100px;
+    background-color: black;
+    position: relative;
+
+   
+}
+
+.topbar{
+ 
+    float: left;
+    margin-top: 10px;
+    padding-inline-start: 230px;
+    padding-bottom: -50px;
+    font-size: xx-large;
+    top: 50px;
+   
+    
+   
+ 
+}
+
+.items{
+    margin-left: 50%;
+    margin-top: -3%;
+}
+
+.listitems{
+    display: block;
+    font-size: x-large;
+    margin: 90px 100px;
+    font-weight: bolder;
+    position: relative;
+    
+ 
+}
+
+.links1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+    border: 1px none rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 0.4s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+.links1:hover{
+    background-color: rgb(255, 132, 0);
+            color: rgb(255, 255, 255);}
+
+.links{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+    border: 1px none rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 0.4s;
+    
+    
+}
+.links:hover{
+    background-color: rgb(255, 132, 0);
+    color: rgb(255, 255, 255);
+}
+.img1{
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
+.heading{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+.starter{
+    width: 630px;
+   height: 610px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    float:left;
+    margin: 12px;
+    align-items: center;
+    border-radius: 30px;
+    border: groove red 2px;
+}
+
+
+
+/* .img1:hover{
+  transition: 0.3s;
+ 
+    
+} */
+#welcome{
+    font-size: large;
+    font: bolder;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:'Times New Roman', Times, serif;
+  position: inherit;
+
+ 
+    
+ 
+}
+
+#everything{
+    background-color: rgb(245, 140, 3);
+   
+ 
+
+    
+}
+
+
+
+p{
+    font-size: large;
+    font: bold;
+     font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+#b{
+    font: 1em sans-serif;
+}
+
+#order{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 0px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bolder;
+    border-color: white;
+}
+
+#order:hover{
+    background-color: rgb(255, 132, 0);
+    color: black;
+    transition: 0.5s;
+    border: solid 1px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight:normal;
+   
+}
+#contact{
+    margin: 5% 8% 0px 8%;
+    font-size: larger;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+}
+.iconset{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.iconitems, .uparrow{
+
+    display: flex;/* for getting the enterred text in a line  */
+    margin: 0px 10px;
+   
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}   
+
+.iconitems:hover{
+    background-image: linear-gradient( to bottom right, rgb(0, 13, 255),rgb(255, 132, 0));
+}
+.iconitems i{
+  color: black;
+  font-size: 30px;
+  
+}
+.iconitems :hover i{
+    color: rgb(255, 255, 255);
+    animation: shake 0.95s infinite;
+}
+
+@keyframes shake{
+    10%{
+        transform: rotate(90deg) ;
+       
+    }
+
+ 20%{
+    transform:repeat(-90deg) ;
+ }
+ 30%{
+    transform: repeat( 90deg);
+
+ }
+ 40% {
+    transform: rotate(-90deg);
+ }
+
+}
+#p1{
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    margin: 3rem 0px;
+    
+}
+.uparrow{
+    float: right;
+   
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin: 0px 10px 50px 0px;
+}
+.uparrow:hover{
+    background-image: linear-gradient( to bottom right, rgb(221, 122, 47),rgb(255, 98, 0));
+}
+.uparrow :hover i{
+    color: rgb(255, 255, 255);
+    
+}
+.uparrow a{
+    color: black;
+}
+.uparrow:hover i{
+    color: rgb(255, 255, 255);
+    animation: shake 0.95s infinite;
+    
+}
+
+#contact{
+    color: black;
+   
+}
+#p2{
+    color: white;
+}
+
+.divtable{
+    background-color: rgb(245, 140, 3);
+}
+.form{
+    margin-left: 530px;
+    justify-content: center;
+    display: grid;
+    border: ridge 1px black;
+    border-radius: 30px;
+    text-align: center;
+    width: 30%;
+    height: 360px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 855px;
+    opacity:0.4;
+
+}
+input{
+    width: 50%;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+   
+    
+    
+}
